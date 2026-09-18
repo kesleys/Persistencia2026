@@ -1,0 +1,153 @@
+18-Sep-2026 00:24:45.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+18-Sep-2026 00:24:45.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+18-Sep-2026 00:24:45.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+18-Sep-2026 00:24:45.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Sep-2026 00:24:45.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-1064-azure
+18-Sep-2026 00:24:45.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Sep-2026 00:24:45.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/sdkman/candidates/java/25.0.4+1-ms
+18-Sep-2026 00:24:45.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.4.1+1-LTS
+18-Sep-2026 00:24:45.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+18-Sep-2026 00:24:45.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/Persistencia2026/apache-tomcat-10.1.19
+18-Sep-2026 00:24:45.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/Persistencia2026/apache-tomcat-10.1.19
+18-Sep-2026 00:24:45.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/Persistencia2026/apache-tomcat-10.1.19/conf/logging.properties
+18-Sep-2026 00:24:45.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Sep-2026 00:24:45.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Sep-2026 00:24:45.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Sep-2026 00:24:45.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Sep-2026 00:24:45.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Sep-2026 00:24:45.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Sep-2026 00:24:45.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Sep-2026 00:24:45.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Sep-2026 00:24:45.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Sep-2026 00:24:45.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/Persistencia2026/apache-tomcat-10.1.19
+18-Sep-2026 00:24:45.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/Persistencia2026/apache-tomcat-10.1.19
+18-Sep-2026 00:24:45.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/Persistencia2026/apache-tomcat-10.1.19/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/workspaces/Persistencia2026/apache-tomcat-10.1.19/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+18-Sep-2026 00:24:45.147 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+18-Sep-2026 00:24:45.962 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Sep-2026 00:24:45.985 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1412] milliseconds
+18-Sep-2026 00:24:46.029 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Sep-2026 00:24:46.029 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+18-Sep-2026 00:24:46.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/manager]
+18-Sep-2026 00:24:47.036 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/manager] has finished in [995] ms
+18-Sep-2026 00:24:47.037 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/examples]
+18-Sep-2026 00:24:47.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/examples] has finished in [410] ms
+18-Sep-2026 00:24:47.450 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/ROOT]
+18-Sep-2026 00:24:48.289 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Sep-2026 00:24:48.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/ROOT] has finished in [854] ms
+18-Sep-2026 00:24:48.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/host-manager]
+18-Sep-2026 00:24:48.329 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/host-manager] has finished in [24] ms
+18-Sep-2026 00:24:48.329 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/docs]
+18-Sep-2026 00:24:48.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/docs] has finished in [30] ms
+18-Sep-2026 00:24:48.365 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Sep-2026 00:24:48.383 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2396] milliseconds
+18-Sep-2026 00:36:38.142 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Sep-2026 00:36:38.143 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Sep-2026 00:36:38.150 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Sep-2026 00:36:38.164 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Sep-2026 00:36:38.225 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Sep-2026 00:36:38.239 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Sep-2026 00:36:39.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+18-Sep-2026 00:36:39.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+18-Sep-2026 00:36:39.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+18-Sep-2026 00:36:39.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Sep-2026 00:36:39.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-1064-azure
+18-Sep-2026 00:36:39.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Sep-2026 00:36:39.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/sdkman/candidates/java/25.0.4+1-ms
+18-Sep-2026 00:36:39.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.4.1+1-LTS
+18-Sep-2026 00:36:39.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+18-Sep-2026 00:36:39.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/Persistencia2026/apache-tomcat-10.1.19
+18-Sep-2026 00:36:39.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/Persistencia2026/apache-tomcat-10.1.19
+18-Sep-2026 00:36:39.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/Persistencia2026/apache-tomcat-10.1.19/conf/logging.properties
+18-Sep-2026 00:36:39.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Sep-2026 00:36:39.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Sep-2026 00:36:39.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Sep-2026 00:36:39.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Sep-2026 00:36:39.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Sep-2026 00:36:39.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Sep-2026 00:36:39.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Sep-2026 00:36:39.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Sep-2026 00:36:39.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Sep-2026 00:36:39.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/Persistencia2026/apache-tomcat-10.1.19
+18-Sep-2026 00:36:39.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/Persistencia2026/apache-tomcat-10.1.19
+18-Sep-2026 00:36:39.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/Persistencia2026/apache-tomcat-10.1.19/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/workspaces/Persistencia2026/apache-tomcat-10.1.19/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+18-Sep-2026 00:36:39.147 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+18-Sep-2026 00:36:39.557 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Sep-2026 00:36:39.600 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [901] milliseconds
+18-Sep-2026 00:36:39.655 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Sep-2026 00:36:39.655 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+18-Sep-2026 00:36:39.666 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/manager]
+18-Sep-2026 00:36:40.060 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/manager] has finished in [392] ms
+18-Sep-2026 00:36:40.061 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/examples]
+18-Sep-2026 00:36:40.396 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/examples] has finished in [334] ms
+18-Sep-2026 00:36:40.396 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/ROOT]
+18-Sep-2026 00:36:41.176 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Sep-2026 00:36:41.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/ROOT] has finished in [808] ms
+18-Sep-2026 00:36:41.206 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/host-manager]
+18-Sep-2026 00:36:41.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/host-manager] has finished in [37] ms
+18-Sep-2026 00:36:41.245 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/docs]
+18-Sep-2026 00:36:41.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/docs] has finished in [24] ms
+18-Sep-2026 00:36:41.273 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Sep-2026 00:36:41.292 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1688] milliseconds
+18-Sep-2026 00:42:12.026 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Sep-2026 00:42:12.026 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Sep-2026 00:42:12.031 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Sep-2026 00:42:12.046 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Sep-2026 00:42:12.083 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Sep-2026 00:42:12.101 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Sep-2026 00:42:12.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+18-Sep-2026 00:42:12.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+18-Sep-2026 00:42:12.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+18-Sep-2026 00:42:12.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Sep-2026 00:42:12.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-1064-azure
+18-Sep-2026 00:42:12.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Sep-2026 00:42:12.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/sdkman/candidates/java/25.0.4+1-ms
+18-Sep-2026 00:42:12.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.4.1+1-LTS
+18-Sep-2026 00:42:12.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+18-Sep-2026 00:42:12.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/Persistencia2026/apache-tomcat-10.1.19
+18-Sep-2026 00:42:12.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/Persistencia2026/apache-tomcat-10.1.19
+18-Sep-2026 00:42:12.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/Persistencia2026/apache-tomcat-10.1.19/conf/logging.properties
+18-Sep-2026 00:42:12.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Sep-2026 00:42:12.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Sep-2026 00:42:12.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Sep-2026 00:42:12.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Sep-2026 00:42:12.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Sep-2026 00:42:12.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Sep-2026 00:42:12.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Sep-2026 00:42:12.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Sep-2026 00:42:12.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Sep-2026 00:42:12.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/Persistencia2026/apache-tomcat-10.1.19
+18-Sep-2026 00:42:12.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/Persistencia2026/apache-tomcat-10.1.19
+18-Sep-2026 00:42:12.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/Persistencia2026/apache-tomcat-10.1.19/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/workspaces/Persistencia2026/apache-tomcat-10.1.19/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+18-Sep-2026 00:42:12.828 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+18-Sep-2026 00:42:13.285 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Sep-2026 00:42:13.319 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [743] milliseconds
+18-Sep-2026 00:42:13.373 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Sep-2026 00:42:13.374 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+18-Sep-2026 00:42:13.382 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/manager]
+18-Sep-2026 00:42:13.912 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/manager] has finished in [527] ms
+18-Sep-2026 00:42:13.912 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/examples]
+18-Sep-2026 00:42:14.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/examples] has finished in [362] ms
+18-Sep-2026 00:42:14.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/ROOT]
+18-Sep-2026 00:42:14.873 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Sep-2026 00:42:14.901 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/ROOT] has finished in [625] ms
+18-Sep-2026 00:42:14.901 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/host-manager]
+18-Sep-2026 00:42:14.932 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/host-manager] has finished in [31] ms
+18-Sep-2026 00:42:14.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/docs]
+18-Sep-2026 00:42:14.954 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/Persistencia2026/apache-tomcat-10.1.19/webapps/docs] has finished in [21] ms
+18-Sep-2026 00:42:14.961 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Sep-2026 00:42:14.981 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1660] milliseconds
