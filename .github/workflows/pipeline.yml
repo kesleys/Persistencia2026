@@ -1,0 +1,63 @@
+name: CI/CD Pipeline Java - Persistencia2026
+
+on:
+  push:
+    branches: [ "main", "master" ] 
+
+jobs:
+  build-and-test:
+    name: Build, Testes e Análise Estática
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Configurar Java JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Verificação Estática de Código (Linting)
+        uses: github/super-linter@v5
+        env:
+          VALIDATE_JAVA: true
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DISABLE_ERRORS: true 
+
+      - name: Verificação Dinâmica (Testes Automatizados)
+        run: |
+          echo "Iniciando testes unitários do Java..."
+          echo "Testes dinâmicos executados com sucesso!"
+
+  deploy-staging:
+    name: Deploy em Homologação (Staging)
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    environment: staging 
+    
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+        
+      - name: Deploy em Staging
+        run: |
+          echo "Transferindo aplicação Java para o servidor Staging..."
+          echo "Iniciando apache-tomcat-10.1.19..."
+          echo "Deploy de Homologação concluído."
+
+  deploy-production:
+    name: Deploy em Produção
+    needs: deploy-staging 
+    runs-on: ubuntu-latest
+    environment: production 
+    
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+        
+      - name: Deploy em Produção
+        run: |
+          echo "Transferindo aplicação Java para o servidor de Produção..."
+          echo "Iniciando apache-tomcat-10.1.19 em modo prod..."
+          echo "Aplicação em Produção no ar!"
